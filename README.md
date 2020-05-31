@@ -1,4 +1,4 @@
-# INSTAGRAM
+# POSTER-GRAM
 A reboot of the classic photo & video sharing social networking service.  
 
 `Splash-image placeholder`
