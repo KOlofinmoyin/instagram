@@ -53,3 +53,4 @@ gem "paperclip", ">= 5.2.0"
 
 gem 'simple_form'
 gem 'websocket-extensions', '~> 0.1.4'
+gem 'bootstrap-sass', '~> 3.3.5'
