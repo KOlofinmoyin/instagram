@@ -1,17 +1,20 @@
-<h1>Poster-gram</h1>
 
-<% @posts.each do |post| %>
+<div class="posts-wrapper row">
+  <% @posts.each do |post| %>
   <div class="post">
     <div class="post-head">
-      <div class="name"> Ben Walker
-        <p>
-            <%= link_to (image_tag post.image.url(:medium), class: 'img-responsive'), posts_path(post) %>
-        </p>
+      <div class="name">
+        Ben Walker
+        <div class="image center-block">
+          <%= link_to (image_tag post.image.url(:medium), class: 'img-responsive'), post_path(post) %>
+        </div>
       </div>
     </div>
   </div>
-  <%= post.caption %>
 
-<% end %>
+  <div class="p caption">
+    <%= post.caption %>
+  </div>
 
-<%= link_to 'Make a New Post', new_post_path%>
+  <% end %>
+</div>
