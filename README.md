@@ -4,7 +4,11 @@ A reboot of the classic photo & video sharing social networking service.
 `Splash-image placeholder`
 
 ### User Stories
-`TBD`
+```
+As a Web visitor
+So that I can navigate
+I want a navbar
+```
 
 ### Mockup
 `TBD`
