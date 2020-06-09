@@ -15,7 +15,7 @@ I want to view all photos
 
 As a Web visitor
 So that I can display my photos
-I want to create a New post
+I want to create a New post   
 ```
 
 ### Mockup
