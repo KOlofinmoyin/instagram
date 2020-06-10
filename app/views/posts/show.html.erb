@@ -1,0 +1,19 @@
+<div class="posts-wrapper row">
+
+  <div class="post">
+    <div class="post-head">
+    </div>
+      <div class="name">
+        Ben Walker
+      </div>
+
+      <div class="image center-block">
+        <%= image_tag @post.image.url(:medium) %>
+      </div>
+
+      <div class="p caption">
+        <%= @post.caption %>
+      </div>
+  </div>
+<%= link_to "Cancel", posts_path %>
+</div>
