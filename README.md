@@ -18,8 +18,8 @@ So that I can display my photos
 I want to create a New post
 
 As a Web visitor
-So that I can focus on an  image
-I want to view a single  post   
+So that I can perform related actions
+I want to view a single post   
 ```
 
 ### Mockup
