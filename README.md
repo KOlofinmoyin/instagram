@@ -19,7 +19,11 @@ I want to create a New post
 
 As a Web visitor
 So that I can perform related actions
-I want to view a single post   
+I want to view a single post  
+
+As a Web visitor
+So that I can make modifications
+I want to 'edit' a post   
 ```
 
 ### Mockup
