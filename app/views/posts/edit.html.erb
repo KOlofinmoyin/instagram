@@ -38,5 +38,5 @@
   <% end %>
 </div>
 <div class="text-center edit-links" >
-  <%= link_to "Cancel", post_path(@post) %> | <%= link_to "Delete Post", post_path(@post), method: :delete, data: { confirm: "'You sure about that?" } %>
+  <%=link_to "Cancel", post_path(@post) %> | <%=link_to "Delete Post", post_path(@post), method: :delete, data: { confirm: "You sure about that?" } %>
 </div>
