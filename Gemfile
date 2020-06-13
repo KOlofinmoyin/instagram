@@ -52,7 +52,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "paperclip", ">= 5.2.0"
 
 gem 'simple_form'
-gem 'websocket-extensions', '~> 0.1.4'
+gem "websocket-extensions", ">= 0.1.5"
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails'
