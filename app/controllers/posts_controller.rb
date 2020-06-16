@@ -34,7 +34,7 @@ before_action :set_post, only: [:show, :edit, :update, :destroy]
 
   def destroy
       @post.destroy
-      redirect_to posts_path
+      redirect_to root_path
   end
 
   private
