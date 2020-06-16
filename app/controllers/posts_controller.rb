@@ -31,8 +31,10 @@ before_action :set_post, only: [:show, :edit, :update, :destroy]
 
   def update
       if @post.update(post_params)
+        flash[:success] = "Post updated."
         redirect_to post_path(@post)
       else
+        flash.now[:alert] = "Update failed. Please check the form."
         render 'edit'
       end
   end
