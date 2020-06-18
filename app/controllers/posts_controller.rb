@@ -40,8 +40,13 @@ before_action :set_post, only: [:show, :edit, :update, :destroy]
   end
 
   def destroy
-      @post.destroy
-      redirect_to root_path
+      if @post.destroy
+        flash[:success] = "Post Deleted."
+        redirect_to root_path
+      else
+        flash.now[:alert] = "Delete failed. Please try again."
+        render 'show'
+      end
   end
 
   private
