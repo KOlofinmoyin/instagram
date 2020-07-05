@@ -3,25 +3,20 @@ class PostsController < ApplicationController
 before_action :set_post, only: [:show, :edit, :update, :destroy]
 
   def index
-          p '[index]'
     @posts = Post.all
   end
 
   def show
-          p '[show]'
   end
 
   def new
-          p '[new]'
       @post = Post.new
   end
 
   def edit
-          p '[edit]'
   end
 
   def create
-      p '[create]'
       if @post = Post.create(post_params)
         flash[:success] = "Your post has been created!"
         redirect_to posts_path
@@ -32,7 +27,6 @@ before_action :set_post, only: [:show, :edit, :update, :destroy]
   end
 
   def update
-          p '[update]'
       if @post.update(post_params)
         flash[:success] = "Post updated."
         redirect_to post_path(@post)
@@ -43,7 +37,7 @@ before_action :set_post, only: [:show, :edit, :update, :destroy]
   end
 
   def destroy
-          p '[destroy]'
+
       # if @post.destroy
       #   flash[:success] = "Post Deleted."
       #   redirect_to posts_path
@@ -62,7 +56,6 @@ before_action :set_post, only: [:show, :edit, :update, :destroy]
   end
 
   def set_post
-          p '[retrieving specific post id]'
     @post = Post.find(params[:id])
   end
 end
