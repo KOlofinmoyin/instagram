@@ -1,7 +1,8 @@
 # POSTER-GRAM
 A reboot of the classic photo & video sharing social networking service.  
 
-`Splash-image placeholder`
+![instagram_app_video](https://user-images.githubusercontent.com/33905131/86541942-24b9f900-bf09-11ea-8b99-161e252ec705.gif)
+
 
 ### User Stories
 ```
