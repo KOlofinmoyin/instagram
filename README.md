@@ -24,11 +24,12 @@ I want to view a single post
 
 As a Web visitor
 So that I can make modifications
-I want to 'edit' a post   
-```
+I want to 'edit' a post
 
-### Mockup
-`TBD`
+As a Web visitor
+So that I can remove cringe worthy messages
+I want to 'delete' a post   
+```
 
 * Ruby version
     - 2.6.6
