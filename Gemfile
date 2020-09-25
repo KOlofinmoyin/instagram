@@ -61,5 +61,3 @@ gem "websocket-extensions", ">= 0.1.5"
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails'
-
-gem "administrate", "~> 0.13.0"
